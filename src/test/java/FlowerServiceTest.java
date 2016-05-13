@@ -14,7 +14,7 @@ import java.math.BigDecimal;
 import org.avci.flower.Flower;
 import org.avci.flower.FlowerRepo;
 import org.avci.flower.FlowerService;
-import org.avci.util.AppConfig;
+import org.avci.util.FlowerAppConfig;
 import org.avci.util.MongoConfig;
 import org.avci.util.MongoConfig1;
 
@@ -26,7 +26,7 @@ import org.avci.util.MongoConfig1;
  */
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = { MongoConfig.class, AppConfig.class } )
+@ContextConfiguration(classes = { MongoConfig.class, FlowerAppConfig.class } )
 public class FlowerServiceTest {
 
 @Autowired

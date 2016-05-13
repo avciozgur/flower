@@ -5,6 +5,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "org.avci")
-public class AppConfig {
+public class FlowerAppConfig {
   
 }
